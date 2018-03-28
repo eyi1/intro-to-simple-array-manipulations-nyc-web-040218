@@ -8,9 +8,9 @@ end
 
 def using_pop (array)
   array.pop
-end 
+end
 
 def pop_with_args (arr)
 arr.pop
 arr.pop
-end 
+end
