@@ -23,4 +23,4 @@ end
 def shift_with_args (arr)
   one = arr.shift
   one.shift
-end 
+end
