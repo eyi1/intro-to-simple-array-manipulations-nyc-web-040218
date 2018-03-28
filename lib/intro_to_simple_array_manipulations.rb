@@ -13,7 +13,7 @@ end
 def pop_with_args (arr)
 
 one = arr.pop
-one.arr.pop
+one.pop
 end
 
 def using_shift (arr)
@@ -22,5 +22,5 @@ end
 
 def shift_with_args (arr)
   one = arr.shift
-  one.arr.shift
+  one.shift
 end 
