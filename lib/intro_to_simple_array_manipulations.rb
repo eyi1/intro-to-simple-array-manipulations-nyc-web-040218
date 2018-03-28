@@ -24,11 +24,11 @@ end
 
 
 def using_concat (arr1, arr2)
-  arr1.push(arr2)
+  arr1.concat([arr2])
 end
 
 def using_insert (arr1, element)
-arr1.insert(element)
+arr1.insert(3, element)
 end
 
 def using_uniq (arr)
@@ -45,5 +45,5 @@ def using_delete (arr1, string)
 end
 
 def using_delete_at (arr, int)
-  arr.delete(int)
+  arr.delete_at(int)
 end
