@@ -11,6 +11,15 @@ def using_pop (array)
 end
 
 def pop_with_args (arr)
-arr.pop
-arr.pop
+
+one = arr.pop
+one.arr.pop
 end
+
+def using_shift (arr)
+  arr.shift
+end
+
+def shift_with_args (arr)
+  one = arr.shift
+  one.arr.shift
